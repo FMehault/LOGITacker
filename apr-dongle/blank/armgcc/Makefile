@@ -2,7 +2,7 @@ PROJECT_NAME     := LOGITacker
 TARGETS          := logitacker_aprdongle
 OUTPUT_DIRECTORY := _build
 
-SDK_ROOT := ../../../../../..
+SDK_ROOT := /home/fmehault/Documents/Projets/MouseHidjacking/nRF52840-Dongle/TMP2/nRF5_SDK_15.3.0_59ac345
 PROJ_DIR := ../../..
 
 $(OUTPUT_DIRECTORY)/logitacker_aprdongle.out: \

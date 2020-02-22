@@ -237,7 +237,7 @@ uint32_t logitacker_keyboard_map_wc_to_hid_reports(hid_keyboard_report_t **p_out
         }
     } else if (in_layout == LANGUAGE_LAYOUT_FR) {
         switch (in_rune) {
-            LAYOUT_DA(LAYOUT_SWITCH_CASE)
+            LAYOUT_FR(LAYOUT_SWITCH_CASE)
             default:
                 return NRF_ERROR_INVALID_PARAM;
         }
